@@ -16,6 +16,7 @@ def test():
 def outer():
    z = "outer z"
    def inner():
+      
       z = "inner z"
       print(z)
       

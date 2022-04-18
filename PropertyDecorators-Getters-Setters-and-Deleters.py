@@ -16,6 +16,8 @@ class Employee:
       self.last = last
 
 emp_1 = Employee("John", "Smith")
+emp_1.first = "ali"
+
 emp_1.fullname = "ali baba"
 
 print(emp_1.email)
